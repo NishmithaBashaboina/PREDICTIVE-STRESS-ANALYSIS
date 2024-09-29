@@ -1,0 +1,55 @@
+hase model hilettet input shape-224,234,3), in lud top False)
+
+For layer in base model. layers: layer,tralsable false
+
+Flatten(base mode Lautput)
+
+Dense(units activation softwer (x)
+
+model nodel(base mode). Input, 3)
+
+model.compile(optimizeradas, las categorical crossuntropy, metrics accuracy"])
+
+
+train datagen ImageDatamerator
+
+тосe range.2 shear nongn..
+
+horizontal flip-true, rescale 1./255
+
+train data train datagen, flow from directory(directory "/users/User/Downloads/te Ingram Desktop/facesbata/tran target slze (224,224) hatch size-17,
+
+train data.class indices
+
+
+
+val datagen nagebataienerator(rescale 1.255)
+
+val data sal datagen flow from directory(directory "C/вегълет/ромнloads/Telegram Desktop/facestata/test target (224,234), batch size-32,
+
+
+
+to visualize the images in the traing data denerator
+
+ting, label train data.next()
+
+function when called will prot the images def plotimages(img arr, label):
+
+input images array
+
+output: plots the images
+
+count
+
+for im, 1 in zip(img arr, label):
+
+plt.imshow(im)
+
+plt.title(im.shape)
+
+plt.axis = False plt.show()
+
+count + 1
+
+if count == 10:
+ break
